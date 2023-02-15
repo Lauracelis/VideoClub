@@ -1,3 +1,4 @@
+import axios from 'axios'
 import React, { useState } from 'react'
 import uniquid from 'uniquid'
 
@@ -39,7 +40,7 @@ export const CreateMovie = () => {
                     </div>
                     <div className='mb-3'>
                         <label htmlFor="telefono" className='form-label'>Telefono</label>
-                        <input type="text" className='form-control'value={nombre} onChange={(e)=> {setNombre(e.target.value)}}></input>
+                        <input type="text" className='form-control'value={telefono} onChange={(e)=> {setTelefono(e.target.value)}}></input>
                     </div>
                     <button onClick={createMovie} className="btn btn-success">Guardar</button>
                 </div>
