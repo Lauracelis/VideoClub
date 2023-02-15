@@ -12,11 +12,11 @@ Interface where you can read, create, modify and delete movies that are already 
 
 ## Built With 🛠️
 
-* [![git](https://img.shields.io/badge/--F05032?logo=git&logoColor=ffffff)](http://git-scm.com/)
-* [![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-* [![express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
-* [!bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-* [!mongodb](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+* ![git](https://img.shields.io/badge/--F05032?logo=git&logoColor=ffffff)](http://git-scm.com/)
+* ![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+* ![express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+* ![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+* ![mongodb](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
 
 
