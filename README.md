@@ -9,6 +9,7 @@ Interface where you can read, create, modify and delete movies that are already 
 * Connection to the database in MoongoDB.
 
 
+
 ## Built With 🛠️
 
 [![git](https://img.shields.io/badge/--F05032?logo=git&logoColor=ffffff)](http://git-scm.com/)
@@ -19,15 +20,17 @@ Interface where you can read, create, modify and delete movies that are already 
 
 
 
+
 ## Getting Started 📋 
 
 These instructions will give you a copy of the project up and running on
 your local machine for development and testing purposes. See deployment
 for notes on deploying the project on a live system.
 
-### Prerequisites :bookmark_tabs
+### Prerequisites :bookmark_tabs:
 
 The complet project is developed in the backend branch.
+
 
 ### Installing :pushpin:
 
@@ -41,9 +44,11 @@ You can quickly access the project with these commands:
 
 
 
+
 ## Deployment ✔️	:heavy_check_mark:
 
 In process :hourglass:
+
 
 
 ## Contributing 	:paperclips:
@@ -51,14 +56,19 @@ In process :hourglass:
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
 of conduct, and the process for submitting pull requests to us.
 
+
+
 ## Versioning
 
 [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/Naereen/StrapDown.js)
+
+
 
 ## Authors
 
   - **Laura Celis** - *Scrum master* -(https://github.com/Lauracelis)
   - **Nathalia Garcia** - *Team member*
+
 
 
 ## License
