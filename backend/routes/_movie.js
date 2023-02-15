@@ -23,7 +23,6 @@ module.exports = router;
 router.post("/addmovie", (req, res) => {
   const newmovie = new ModelMovie({
     idmovie: req.body.idmovie,
-    name: req.body.name,
     title: req.body.title,
     year: req.body.year,
     time: req.body.time,
@@ -31,7 +30,7 @@ router.post("/addmovie", (req, res) => {
     date: req.body.date,
     country: req.body.country,
   });
-  newuser.save(function (err) {
+  newmovie.save(function (err) {
     if (!err) {
       res.send("pelicula agregada correctamente");
     } else {
@@ -60,12 +59,11 @@ router.post("/getdatamovies", (req, res) => {
   });
 });
 
-router.post("/updatemovie", (req, res) => {
+router.post("/updatemovies", (req, res) => {
   ModelMovie.findOneAndUpdate(
     { idmovie: req.body.idmovie },
     {
       idmovie: req.body.idmovie,
-      name: req.body.name,
       title: req.body.title,
       year: req.body.year,
       time: req.body.time,
