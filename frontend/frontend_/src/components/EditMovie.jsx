@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import axios from 'axios'
 
 export const EditMovie = () => {
@@ -9,6 +9,9 @@ export const EditMovie = () => {
     const[nombre,setNombre]=useState('')
     const[email,setEmail]=useState('')
     const[telefono,setTelefono]=useState('')
+
+    //Para volver atrás al index
+    const navegar = useNavigate( )
 
     useEffect(()=>{
          axios.post('/api/usuario/obtenerdatausuario',{idusuario: params.idusuario}).then(res => {
@@ -22,7 +25,21 @@ export const EditMovie = () => {
     },[])
     //funcion que actualiza
     function editMovie(){
-
+        // nuevo objeto 
+        const actualizarusuario ={
+            nombre: nombre,
+            email: email,
+            telefono: telefono,
+            idusuario: params.idusuario
+        }
+        //hacer peticion usando axios
+        axios.post('/api/usuario/actualizausuario', actualizarusuario)
+        .then(res=>{
+            console.log(res.data)
+            alert(res.data)
+            navegar('/')
+        })
+        .then(err =>{console.log(err)})
     }
     return (
         <div className='container'>
