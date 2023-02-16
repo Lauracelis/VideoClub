@@ -23,8 +23,9 @@ export const MovieList = () => {
  })
 return (
     <div>
-        <h1>movieList</h1>
-        <SingleMovie />
+        <h1>Movie List</h1>
+        {listadeusuarios}
+        {/* <SingleMovie /> Borrarrrrrr 1h 40 min*/}
     </div>
 )
 }
