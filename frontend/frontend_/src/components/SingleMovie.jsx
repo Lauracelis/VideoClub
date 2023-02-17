@@ -23,9 +23,19 @@ export const SingleMovie = (usuario) => {
                 <div className='col-sm-6 offset-3'>
                     <ul className='list-group'>
                         <li className='list-group-item'>{usuario.idusuario}</li>
-                        <li className='list-group-item'>{usuario.nombre}</li>
-                        <li className='list-group-item'>{usuario.email}</li>
-                        <li className='list-group-item'>{usuario.telefono}</li>
+                        <li className='list-group-item'>{usuario.num}</li>
+                        <li className='list-group-item'>{usuario.titleMovie}</li>
+                        <li className='list-group-item'>{usuario.year}</li>
+                        <li className='list-group-item'>{usuario.duration}</li>
+                        <li className='list-group-item'>{usuario.lenguage}</li>
+                        <li className='list-group-item'>{usuario.date}</li>
+                        <li className='list-group-item'>{usuario.country}</li>
+                        <li className='list-group-item'>{usuario.director}</li>
+                        <li className='list-group-item'>{usuario.genres}</li>
+                        <li className='list-group-item'>{usuario.actor}</li>
+                        <li className='list-group-item'>{usuario.reviewer}</li>
+                        <li className='list-group-item'>{usuario.revStars}</li>
+                        <li className='list-group-item'>{usuario.numRatings}</li>
                     </ul>
                     <Link to={`/editarusuario/${usuario.idusuario}`}><li className='btn btn-success'>Editar</li></Link>
                     
