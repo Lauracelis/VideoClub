@@ -1,47 +1,45 @@
-# VIDEOCLUB - CRUD WITH REACT :clapper:
+# CRUD API on Lana Del Rey's Discography :kiss: :heart_decoration: :cherries: :lipstick: :high_heel:
 
-Interface where you can read, create, modify and delete movies that are already registered in the database.
+This API was built using Node.js and Express to provide a CRUD service on Lana Del Rey's discography. It allows users to add, modify, search, and delete albums from the artist's discography.
 
-## Features :star:
-* Create a new movie.
-* Delete a movie.
-* Edit a movie.
-* Connection to the database in MoongoDB.
+## Getting Started :star:
 
+To set up and run this API, follow the following steps:
 
-
-## Built With 🛠️
-
-* ![git](https://img.shields.io/badge/--F05032?logo=git&logoColor=ffffff)]
-* ![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-* ![express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
-* ![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-* ![mongodb](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+Install project dependencies using npm install.
+Create a .env file in the root of the project and define the necessary environment variables. You can use the .env.example file as a reference for the variables you need to define.
+Run the application with npm start. The API will be available at http://localhost:3030.
 
 
 
+## Endpoints :round_pushpin:
 
-## Getting Started 📋 
+The API offers the following endpoints to access Lana Del Rey's discography:
 
-These instructions will give you a copy of the project up and running on
-your local machine for development and testing purposes. See deployment
-for notes on deploying the project on a live system.
+GET /Album: Get a list of all albums in the discography.
+GET /Album/:id: Get a specific album by its ID.
+POST /newAlbum: Create a new album in the discography.
+PUT /Album/:id: Update an existing album in the discography.
+DELETE /ReamoveAlbum/:id: Delete a specific album by its ID.
+
+For more information on the parameters and response codes of each endpoint, check out the API's Swagger documentation.
+
+
+
+## Technologies Used :computer: 
+
+The API was built using the following technologies and tools:
+
+Node.js
+Express
+MongoDB
+Mongoose
+Corse
+Thunder Client
 
 ### Prerequisites :bookmark_tabs:
 
 The complet project is developed in the backend branch.
-
-
-### Installing :pushpin:
-
-You can quickly access the project with these commands:
-
-| CLONE | LINK |
-| ------ | ------ |
-| HTTPS | https://github.com/Lauracelis/VideoClub.git |
-| SSH | git@github.com:Lauracelis/VideoClub.git |
-| Github CLI | gh repo clone Lauracelis/VideoClub |
-
 
 
 
@@ -58,23 +56,16 @@ of conduct, and the process for submitting pull requests to us.
 
 
 
-## Versioning
+## Authors  :raising_hand_woman:
 
-[![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/Naereen/StrapDown.js)
-
-
-
-## Authors
-
-  - **Laura Celis** - *Scrum master* -(https://github.com/Lauracelis)
-  - **Nathalia Garcia** - *Team member*
+  - **Laura Celis** 
 
 
 
 ## License
 
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
-Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
-details
+This project is licensed under the MIT License. See the LICENSE file for more information.
+
+I hope this README.md helps you document your API! Feel free to customize it for your own project and add any other information you think is relevant.
 
 
