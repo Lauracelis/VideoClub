@@ -6,9 +6,9 @@ This API was built using Node.js and Express to provide a CRUD service on Lana D
 
 To set up and run this API, follow the following steps:
 
-Install project dependencies using npm install.
-Create a .env file in the root of the project and define the necessary environment variables. You can use the .env.example file as a reference for the variables you need to define.
-Run the application with npm start. The API will be available at http://localhost:3030.
+* Install project dependencies using npm install.
+* Create a .env file in the root of the project and define the necessary environment variables. You can use the .env.example file as a reference for the variables you need to define.
+* Run the application with npm start. The API will be available at http://localhost:3030.
 
 
 
@@ -16,13 +16,13 @@ Run the application with npm start. The API will be available at http://localhos
 
 The API offers the following endpoints to access Lana Del Rey's discography:
 
-GET /Album: Get a list of all albums in the discography.
-GET /Album/:id: Get a specific album by its ID.
-POST /newAlbum: Create a new album in the discography.
-PUT /Album/:id: Update an existing album in the discography.
-DELETE /ReamoveAlbum/:id: Delete a specific album by its ID.
+* GET /Album: Get a list of all albums in the discography.
+* GET /Album/:id: Get a specific album by its ID.
+* POST /newAlbum: Create a new album in the discography.
+* PUT /Album/:id: Update an existing album in the discography.
+* DELETE /ReamoveAlbum/:id: Delete a specific album by its ID.
 
-For more information on the parameters and response codes of each endpoint, check out the API's Swagger documentation.
+* For more information on the parameters and response codes of each endpoint, check out the API's Swagger documentation.
 
 
 
@@ -30,17 +30,12 @@ For more information on the parameters and response codes of each endpoint, chec
 
 The API was built using the following technologies and tools:
 
-Node.js
-Express
-MongoDB
-Mongoose
-Corse
-Thunder Client
-
-### Prerequisites :bookmark_tabs:
-
-The complet project is developed in the backend branch.
-
+* Node.js
+* Express
+* MongoDB
+* Mongoose
+* Corse
+* Thunder Client
 
 
 ## Deployment ✔️	:heavy_check_mark:
